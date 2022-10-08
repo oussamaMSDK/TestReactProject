@@ -1,0 +1,13 @@
+div.scrollmenu {
+    overflow: auto;
+    white-space: nowrap;
+    border-top: 5px solid black;
+    padding: 25px;
+    width: 100%;
+    display:flex;
+    flex-wrap:nowrap;
+}
+
+div.scrollmenu .card {
+    flex: 0 0 auto;
+}
